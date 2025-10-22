@@ -1,0 +1,35 @@
+{
+  // Launch configurations for opening BreakOut.html in a browser from VS Code.
+  // Choose the configuration in the Run view and press F5.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch BreakOut in Default Browser (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/BreakOut.html",
+      "cwd": "${workspaceFolder}",
+      "env": {},
+      "runtimeArgs": []
+    },
+    {
+      "name": "Launch BreakOut in Edge",
+      "type": "msedge",
+      "request": "launch",
+      "file": "${workspaceFolder}/BreakOut.html",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+      "runtimeArgs": ["--disable-features=VizDisplayCompositor"],
+      "env": {}
+    },
+    {
+      "name": "Launch BreakOut in Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/BreakOut.html",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+      "env": {}
+    }
+  ]
+}
